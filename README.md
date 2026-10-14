@@ -107,7 +107,13 @@ pip install -r requirements.txt
 python benchmark.py
 ```
 
-### 3. Interactive CLI Generation
+### 3. Interactive Web Dashboard (Sleek UI/UX)
+```bash
+python server.py
+```
+Open **`http://localhost:8001`** in your browser to view the interactive **Paged KV-Cache Virtual Memory Map** and run real-time speculative generation with live telemetry.
+
+### 4. Interactive CLI Generation
 ```bash
 python main.py --gamma 4 --max_tokens 50
 ```
